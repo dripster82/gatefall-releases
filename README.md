@@ -21,9 +21,10 @@ Download the launcher for your computer. It installs the game, keeps it up to da
 | Computer | Launcher |
 |---|---|
 | Steam Deck and Linux (x86-64) | [Gatefall-Launcher-linux-x86_64](https://github.com/dripster82/gatefall-releases/releases/latest/download/Gatefall-Launcher-linux-x86_64) |
+| Windows (64-bit) | [Gatefall-Launcher-windows-x64.exe](https://github.com/dripster82/gatefall-releases/releases/latest/download/Gatefall-Launcher-windows-x64.exe) |
 | Mac (Apple silicon) | [Gatefall-Launcher-macos-arm64.dmg](https://github.com/dripster82/gatefall-releases/releases/latest/download/Gatefall-Launcher-macos-arm64.dmg) |
 
-All versions are on the [Releases](https://github.com/dripster82/gatefall-releases/releases) page. Windows and Intel Mac builds are not available yet.
+All versions are on the [Releases](https://github.com/dripster82/gatefall-releases/releases) page. Intel Mac builds are not available yet.
 
 ## Steam Deck
 
@@ -39,6 +40,10 @@ All versions are on the [Releases](https://github.com/dripster82/gatefall-releas
 
 Download the launcher, make it executable (`chmod +x Gatefall-Launcher-linux-x86_64`) and run it. You can also add it to Steam as a non-Steam game, as above.
 
+## Windows
+
+Put the launcher somewhere you'll keep it (the Desktop is fine) and run it. The launcher isn't signed yet, so the first time Windows may say it protected your PC: click **More info**, then **Run anyway**.
+
 ## Mac
 
 Open the dmg and drag **Gatefall** into **Applications**, then start it from there. The launcher and the game are signed and notarized by Apple.
@@ -47,8 +52,8 @@ Open the dmg and drag **Gatefall** into **Applications**, then start it from the
 
 - Each time it starts, the launcher checks for a new version, downloads it with a progress bar, checks it, and starts the game. Press **Esc** during a download to skip it and play the version you have.
 - The previous version is kept on disk in case a new one has a problem.
-- Saves and settings are kept apart from the game files and are never touched by an update: `~/.local/share/gatefall/` on Linux, the Steam Deck and the Mac. The game files are in its `game/` folder.
-- To uninstall, delete the launcher and `~/.local/share/gatefall/game`. Delete the whole `~/.local/share/gatefall` folder to remove your saves too.
+- Saves and settings are kept apart from the game files and are never touched by an update: `~/.local/share/gatefall/` on Linux, the Steam Deck and the Mac, and `%APPDATA%\Gatefall\` on Windows. The game files are in its `game` folder.
+- To uninstall, delete the launcher and that `game` folder. Delete the whole Gatefall folder to remove your saves too.
 
 ## Status
 
