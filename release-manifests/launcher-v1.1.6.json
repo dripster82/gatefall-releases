@@ -1,0 +1,21 @@
+{
+  "tag": "launcher-v1.1.6",
+  "files": [
+    {
+      "name": "Gatefall-Launcher-linux-x86_64",
+      "sha256": "1f73404240fced35f96e75765d310e33501f89797c212a614bfa60a802ccf5d8"
+    },
+    {
+      "name": "Gatefall-Launcher-macos-arm64.dmg",
+      "sha256": "2a16cf231ae0ec02d78dc2a2443c56e37ba2dbb172b74d369968e822ac7a0d0c"
+    },
+    {
+      "name": "Gatefall-Launcher-payload.zip",
+      "sha256": "9a132eb9e793f27204bb2dfe3b9d34af1ded37e3564f0cf320038477bec66b4c"
+    },
+    {
+      "name": "Gatefall-Launcher-windows-x64.exe",
+      "sha256": "9a2aa03af4a2b0c12cb6c62d769f10da6b0f09f360d43b0d74ac3bfea79b7b39"
+    }
+  ]
+}
