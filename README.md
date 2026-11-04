@@ -81,7 +81,8 @@ Open the dmg and drag **Gatefall** into **Applications**, then start it from the
 - If something goes wrong, `logs/` in that same folder has what's needed to fix it (from Gatefall 0.20.2): a
   `crash-<date>-<time>.txt` report for each crash, the newest ten kept, and `fatal.log` for crashes the game cannot
   catch itself. The launcher keeps its own log in `game/launcher.log`. Reports never include your commander or base
-  names, so send them with a problem report as they are.
+  names, so send them with a problem report as they are. If the game crashes, the launcher tells you when it closes
+  (or the next time it starts), names the report and can open the folder for you.
 - To remove the game, delete the launcher you downloaded and those two folders. Delete the whole Gatefall folder to remove your saves as well.
 
 ## Status
