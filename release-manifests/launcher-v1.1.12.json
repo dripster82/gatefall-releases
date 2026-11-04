@@ -1,0 +1,9 @@
+{
+  "tag": "launcher-v1.1.12",
+  "files": [
+    {
+      "name": "Gatefall-Launcher-payload.zip",
+      "sha256": "cb51afdca0c4d39f1a3e98793c40dc70061135b8d538ae59b604fda2f250a74c"
+    }
+  ]
+}
