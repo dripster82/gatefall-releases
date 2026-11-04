@@ -46,7 +46,7 @@ There is nothing else to install: the launcher brings its own Python and everyth
    artwork; if it still shows a grey tile, restart Steam.
 8. In your Library, open Gatefall → the controller icon → pick the **Keyboard and Mouse** template. The trackpad moves
    the pointer and the triggers click.
-9. Play. In the game, open **Settings** and turn on **Fullscreen**.
+9. Play. On a Deck the game starts fullscreen at the Deck's own size.
 
 The launcher leaves the Deck's built-in controls to Steam, so the trackpad pointer keeps working in both the launcher and the game.
 
