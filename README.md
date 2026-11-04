@@ -34,18 +34,26 @@ There is nothing else to install: the launcher brings its own Python and everyth
 ## Steam Deck
 
 1. Hold the power button and choose **Switch to Desktop**.
-2. Download the Linux launcher (above) with the browser. It lands in **Downloads**.
-3. In the file manager, right-click the launcher → **Properties** → **Permissions** → tick **Is executable** → **OK**.
-4. Right-click it again → **Add to Steam**.
-5. Go back to Game Mode (the **Return to Gaming Mode** icon on the desktop).
-6. In your Library, open Gatefall → the controller icon → pick the **Keyboard and Mouse** template. The trackpad moves the pointer and the triggers click.
-7. Play. The first start downloads the game, so be online for it. In the game, open **Settings** and turn on **Fullscreen**.
+2. Download the Linux launcher (above) with the browser. It lands in **Downloads**: drag it onto the **Desktop**.
+3. Right-click it → **Properties** → **Permissions** → tick **Is executable** → **OK**.
+4. Double-click it. The first start downloads the game, so be online for it. When the game opens, quit it.
+5. A **Gatefall** icon is now on the Desktop, beside the launcher, and Gatefall is in the app menu. Right-click the
+   Gatefall icon → **Add to Steam**.
+6. Start Gatefall once more and quit again. This lets the launcher give its Steam library entry the Gatefall artwork.
+7. Go back to Game Mode (the **Return to Gaming Mode** icon on the desktop). Gatefall is in your Library with its
+   artwork; if it still shows a grey tile, restart Steam.
+8. In your Library, open Gatefall → the controller icon → pick the **Keyboard and Mouse** template. The trackpad moves
+   the pointer and the triggers click.
+9. Play. In the game, open **Settings** and turn on **Fullscreen**.
 
 The launcher leaves the Deck's built-in controls to Steam, so the trackpad pointer keeps working in both the launcher and the game.
 
 ## Linux
 
-Download the launcher, make it executable (`chmod +x Gatefall-Launcher-linux-x86_64`) and run it. You can also add it to Steam as a non-Steam game, as above.
+Download the launcher, make it executable (`chmod +x Gatefall-Launcher-linux-x86_64`) and run it. It adds Gatefall,
+with its icon, to your app menu, and puts a Gatefall icon on the Desktop too if the launcher is kept there. To play
+through Steam, add that icon to Steam as a non-Steam game, as above, and start it once more so the launcher can give
+it its library artwork.
 
 ## Windows
 
