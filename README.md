@@ -78,6 +78,10 @@ Open the dmg and drag **Gatefall** into **Applications**, then start it from the
 
 - Saves and settings are kept apart from the game files and are never touched by an update: `~/.local/share/gatefall/` on Linux, the Steam Deck and the Mac, and `%APPDATA%\Gatefall\` on Windows.
 - Inside that folder, `game/` holds the game itself and `launcher/` holds the launcher's own files. Your saves are not in either.
+- If something goes wrong, `logs/` in that same folder has what's needed to fix it (from Gatefall 0.20.2): a
+  `crash-<date>-<time>.txt` report for each crash, the newest ten kept, and `fatal.log` for crashes the game cannot
+  catch itself. The launcher keeps its own log in `game/launcher.log`. Reports never include your commander or base
+  names, so send them with a problem report as they are.
 - To remove the game, delete the launcher you downloaded and those two folders. Delete the whole Gatefall folder to remove your saves as well.
 
 ## Status
