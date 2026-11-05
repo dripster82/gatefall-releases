@@ -1,0 +1,29 @@
+{
+  "tag": "v0.22.0",
+  "files": [
+    {
+      "name": "Gatefall-Launcher-linux-x86_64",
+      "sha256": "b60de7f31a4daee8d0a48b79a7b4d23846b1cf724b217be029ecb3f509b41a8a"
+    },
+    {
+      "name": "Gatefall-Launcher-macos-arm64.dmg",
+      "sha256": "7e0c7e0a55c262d9e502b8687f7adaefb917fd52548104f1c81af7e48e238336"
+    },
+    {
+      "name": "Gatefall-Launcher-windows-x64.exe",
+      "sha256": "ab219f15eeef736f9ea66034e0842c0d1c14df0e62239c6c7e4c41270a0e76e1"
+    },
+    {
+      "name": "Gatefall-linux-x86_64.tar.gz",
+      "sha256": "4972dcc23b7d160121dc570314a9b03d93117cd83e8a5c1f645cc935e527d0ab"
+    },
+    {
+      "name": "Gatefall-macos-arm64.tar.gz",
+      "sha256": "9184faccc492dad0f45daba12bacf9dda751a13b3ee8965855cdde86e4c12f7a"
+    },
+    {
+      "name": "Gatefall-windows-x64.zip",
+      "sha256": "e35858c1a7250b10b848df46201f91b2ad7dbabaa18341aa22724523231edf5e"
+    }
+  ]
+}
